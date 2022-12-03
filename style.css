@@ -24,7 +24,7 @@ button {
 .header {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    align-content: center;
     padding: 0px 250px;
 }
 
@@ -38,7 +38,6 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 30px;
 }
 
 .header-logo {
@@ -50,10 +49,10 @@ button {
 .links {
     display: flex;
     flex-shrink: 0;
-    justify-content: flex-end;
-    color: #E5E7EB;
+    justify-content: flex-end; 
     font-size: 18px;
     margin-top: 16px;
+    margin-left: 30px;
 }
 
 ul {
@@ -129,7 +128,6 @@ a {
   text-align: center;
   color: #eee;
   margin-bottom: 92px; 
-  /* gap: 16px; */
 }
 
 .pic {
@@ -158,35 +156,27 @@ a {
 .quote-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #E5E7EB;
     padding: 120px 340px;
     margin-bottom: 92px;
     gap: 20px;
+    width: 100%;
 }
 
 .quote-text {
-    /* display: flex;
-    justify-content: center;
-    flex-shrink: 1; */
     color: #1F2937;
     font-size: 36px;
     font-weight:lighter;
     font-style: italic;
     height: 160px;
     width: 736px;
-    
-
 }
 
 .quote-author {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     color: #000000;
     font-size: 24px;
     font-weight: bold;
-    text-align: left;
-    margin-right: 46px;
 }
 
 .call {
